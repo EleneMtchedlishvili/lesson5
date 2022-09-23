@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(217, 224, 204);
+}
+th {
+  border: 2px solid black;
+}
+td {
+  border: 2px solid black;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+li {
+  margin: 20px;
+}
+h2 {
+  text-align: center;
+}
+.description {
+  text-align: center;
+}
+.iframe {
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
+.submit {
+  border-style: none;
+  border-radius: 15px;
+  color: white;
+  background-color: darkgreen;
+  margin-top: 10px;
+}
+label {
+  display: flex;
+  justify-content: center;
+}
+form {
+  text-align: center;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <!-- ჰედერი ნავიგაციის ელემენტებით -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#section1">სექცია1</a></li>
+          <li><a href="#section2">სექცია2</a></li>
+          <li><a href="#section3">სექცია3</a></li>
+          <li><a href="#section4">სექცია4</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- აქ არის პირველი სექცია -->
+    <section id="section1">
+      <h2>პირველი სექცია</h2>
+      <video src="src/trailer.mp4" controls loop width="100%">
+        <!-- აქ ვერ ვხვდები სორსის თეგი რა საჭიროა, მაგის გარეშეც მუშაობს -->
+      </video>
+    </section>
+    <!-- აქ არის მეორე სექცია -->
+    <section id="section2">
+      <h2>მეორე სექცია</h2>
+      <p class="description">ვიდეო თეგის გამოყენების ტუტორიალი</p>
+      <p class="iframe">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/OOy764mDtiA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+      </p>
+    </section>
+    <!-- აქ არის მესამე სექცია -->
+    <section id="section3">
+      <h2>მესამე სექცია</h2>
+      <table>
+        <htead>
+          <th>
+            <div>
+              <label>წელი</label>
+              <select name="წელი">
+                <option value="1990">1990</option>
+                <option value="2000">2000</option>
+                <option value="2010">2010</option>
+              </select>
+            </div>
+          </th>
+          <th>
+            <div>
+              <label>ჟანრი</label>
+              <select name="ჟანრი">
+                <option value="კომედია">კომედია</option>
+                <option value="დრამა">დრამა</option>
+                <option value="ჰორორი">ჰორორი</option>
+              </select>
+            </div>
+          </th>
+          <th>
+            <div>
+              <label>რეიტინგი</label>
+              <select name="რეიტინგი">
+                <option value="9.1-10.0">9.1-10.0</option>
+                <option value="8.1-9.0">8.1-9.0</option>
+                <option value="7.0-8.0">7.0-8.0</option>
+              </select>
+            </div>
+          </th>
+        </htead>
+        <tbody>
+          <tr>
+            <td>Home Alone</td>
+            <td>Edward Scissorhands</td>
+            <td>Misery</td>
+          </tr>
+          <tr>
+            <td>American Psycho</td>
+            <td>Memento</td>
+            <td>The Family Man</td>
+          </tr>
+          <tr>
+            <td>Black Swan</td>
+            <td>Grown Ups</td>
+            <td>Resident Evil</td>
+          </tr>
+          <tr>
+            <td>Hamilton</td>
+            <td>Call</td>
+            <td>Nocturne</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <th colspan="4">ფილმები</th>
+        </tfoot>
+      </table>
+    </section>
+    <!-- აქ არის მეოთხე სექცია -->
+    <section id="section4">
+      <h2>მეოთხე სექცია</h2>
+      <!-- log in ინფუთები -->
+      <form>
+        <div>
+          <label><b>email</b></label>
+          <input type="email" placeholder="შეიყვანეთ მეილი" required />
+        </div>
+        <div>
+          <label><b>password</b></label>
+          <input type="password" placeholder="შეიყვანეთ პაროლი" required />
+        </div>
+        <div class="container">
+          <input type="submit" value="შენახვა" class="submit" />
+        </div>
+      </form>
+      <!-- აქ არის რუკა -->
+      <p class="iframe">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23821.681873290123!2d44.73215275!3d41.7267712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sge!4v1663937200289!5m2!1sen!2sge"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </p>
+    </section>
+    <!-- აქ არის ფუტერი -->
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#section1">სექცია1</a></li>
+          <li><a href="#section2">სექცია2</a></li>
+          <li><a href="#section3">სექცია3</a></li>
+          <li><a href="#section4">სექცია4</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
